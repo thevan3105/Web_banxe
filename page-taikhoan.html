@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Yamaha Việt Nam
+        </title>
+        <link rel="shortout image" class="image-logo" href="images/hinh/logo-image/image-logo1.jpg" >
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head> 
+    <body>
+        <header>
+            <div class="main-header">
+                <div class="top-menu">
+                    <div class="top-left">
+                        <ul>
+                            
+                            <li>
+                                <span><a href="HTML.html#"><i class="fa fa-home" aria-hidden="true"></i></a></span>
+                                <a href="HTML.html#">TRANG CHỦ</a>
+                            </li>
+                            <li>
+                                <a href="page-sp.html">LOẠI XE</a>
+                                <ul class="sub-menu1">
+                                    <li><a href="xetayga.html">XE TAY GA</a></li>
+                                    <li><a href="xetaycon.html">XE CÔN TAY</a></li>
+                                    <li><a href="xeso.html">XE SỐ</a></li>
+                                    <li><a href="page-ctsp.html">CHI TIẾT SẢN PHẨM</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="page-pt.html">PHỤ TÙNG<a>
+                                <ul class="sub-menu2">
+                                    <li><a href="#">PHỤ TÙNG CHÍNH HÃNG</a></li>
+                                    <li><a href="#">HÓA CHẤT</a></li>
+                                    <li><a href="#">MŨ BẢO HIỂM & BAO TAY</a></li>
+                                </ul>
+                            </li>
+                                
+                            <li>
+                                <a href="login/page-login.html">TÀI KHOẢN</a>
+                                <ul class="sub-menu2">
+                                    <li><a href="page-dangky.html">ĐĂNG KÝ</a></li>
+                                    <li><a href="login/page-login.html">ĐĂNG NHẬP</a></li>
+                                    <li><a href="page-taikhoan.html">THÔNG TIN TÀI KHOẢN</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="page-blog.html">BLOG</a></li>
+                            <li><a href="page-giohang.html">GIỎ HÀNG</a></li>
+                            <li><a href="page-tintuc.html">TIN TỨC</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-right">
+                        <div class="box-search">
+                            <div class="container-1">
+                                <span class="image">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </span>
+                                <input type="search" id="search" placeholder=" Tìm kiếm...." />
+                            </div>
+                        </div>
+                        
+                        <span><a href="https://www.facebook.com/manhnguyencm"><img class="fb" src="images/hinh/logo-icon/ico-fb.png.webp" alt=""></a></span>
+                        <span><a href="https://yamaha-motor.com.vn/"><img class="itg" src="images/hinh/logo-icon/ico-instagram.png" alt=""></a></span>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="logo-yamaha">
+                        <div class="anh-logo">
+                            <img src="images/hinh/logo-icon/logo-yamaha.png" alt="">
+                        </div>
+                        <div class="quang-cao">
+                            <p>Yamaha Việt Nam luôn đồng hành cùng bạn trên mọi nẻo đường <br>Tự hào là thương hiệu hàng đầu tại Việt Nam<br>Từ 1/1/2020 Yamaha Việt Nam hỗ trợ thay dầy miễn phí tại tất cả các showroom</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-top-head">
+                    <div class="top-top-left">
+                        <ul>
+                            <li id="menu-item-left">
+                                <a href="#">Liên hệ chúng tôi</a>
+                            </li>
+                            <li id="menu-item-right">
+                                <a href="#">+84 376167632</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-top-right">
+                         <ul>
+                            <li id="menu-right">
+                                
+                                <a href="page-login.html">
+                                    <spam><a href="https://www.facebook.com/manhnguyencm"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></spam>
+                                    Tài khoản
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+        </header>
+        
+        <section class="main-content">
+            <div class="banner-main">
+                <div class="slideshow-container">
+                    <img class="slides" src="images/hinh/banner/banner-web-New-me-03-min.jpg.webp" style="width:100%">
+                    <img class="slides" src="images/hinh/banner/3-1_.png.webp" style="width:100%">
+                    <img class="slides" src="images/hinh/banner/4-1_.png.webp" style="width:100%">
+                    
+                  
+                    <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+                    
+                    function plusDivs(n) {
+                      showDivs(slideIndex += n);
+                    }
+                    
+                    function showDivs(n) {
+                      var i;
+                      var x = document.getElementsByClassName("slides");
+                      if (n > x.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = x.length}
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      x[slideIndex-1].style.display = "block";  
+                    }
+                    </script>
+            </div>
+            <div class="container">
+                <div id="video-yamaha">
+                    <video autoplay  controls>
+                        <source src="images/videos/yamagaxetayga.mp4" type="video/mp4">
+                        <source src="images/videos/yamagaxetayga.ogg" type="video/ogg">
+                    </video>
+                </div>
+                <div id="video-yamaha2">
+                    <div class="slideShow-videoRight" style="max-width:500px">
+                        <img class="slidesRright" src="images/hinh/banner/Annotation 2020-03-28 223051.png" style="width:100%">
+                        <img class="slidesRright" src="images/hinh/banner/Tablet-Banner-768x581px-768x390.jpg" style="width:100%">
+                        <img class="slidesRright" src="images/hinh/banner/Untitled-23.jpg.webp" style="width:100%">
+                    </div>
+                    <script>
+                        var myIndex = 0;
+                        carousel();
+                        
+                        function carousel() {
+                          var i;
+                          var x = document.getElementsByClassName("slidesRright");
+                          for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
+                          }
+                          myIndex++;
+                          if (myIndex > x.length) {myIndex = 1}    
+                          x[myIndex-1].style.display = "block";  
+                          setTimeout(carousel, 2000); // Change image every 2 seconds
+                        }
+                        </script>
+                </div>
+                
+            </div>
+            <div class="content">
+                <div class="content-main">
+                    <h5>YAMAHA</h5>
+                    <ul>
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-main">
+                    <h5>YAMAHA</h5>
+                    <ul>
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-main">
+                    <h5>YAMAHA</h5>
+                    <ul>
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="post">
+                                <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                <h4><a href="#">WAVE-FI</a></h4>
+                                <p>Giá: 17.300.000 VND</p>
+                                <p>
+                                    <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="container-blog" >
+                <div class="blog">
+                    <div>
+                        <h3>BLOG</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <p class="icon"><img src="images/hinh/anhtrangchu/thuy.jpg" alt=""></p>
+                                <p class="name">Lê Thị Thủy</p>
+                                <p>tôi rất vui khi đồng hành cùng yamaha</p>
+                            </li>
+                            <li>
+                                <p class="icon"><img src="images/hinh/anhtrangchu/60483280_361954287773497_6765605189589139456_n.jpg" alt=""></p>
+                                <p class="name">Nguyễn Văn Mạnh</p>
+                                <p>tôi rất vui khi đồng hành cùng yamaha</p>
+                            </li>
+                            <li>
+                                <p class="icon"><img src="images/hinh/anhtrangchu/van.jpg" alt=""></p>
+                                <p class="name">Nguyễn Thế Vân</p>
+                                <p>tôi rất vui khi đồng hành cùng yamaha</p>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-box">
+                    <div class="address-box">
+                        <a href="#"><img class="logo-footer" src="images/hinh/logo-icon/logo-yamaha.png" alt="yamaha việt nam"></a>
+                        <div class="address-list">
+                            <div class="tit-name">Địa chỉ:</div>
+                            <div class="tit-contain"> Hoàng Quốc Việt, Bắc Từ Liêm, Hà Nội</div>
+                            <div class="tit-name">Hotline:</div>
+                            <div class="tit-contain"> +84 376167632</div>
+                            <div class="tit-name">Email:</div>
+                            <div class="tit-contain"> manhnv1789@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="menu-box">
+                        <ul>
+                            <p>THƯƠNG HIỆU</p>
+                            <li><a href="#">Yamaha</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-box">
+                        <ul>
+                            <p>HỖ TRỢ</p>
+                            <li><a href="#">Bảo hành yamaha</a></li>
+                            <li><a href="#">Kiểm tra & Thanh toán<a></li>
+                            <li><a href="#">Liên hệ Online</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-box">
+                        <ul>
+                            <p>CHÍNH SÁCH</p>
+                            <li><a href="#">Quy định chung<a></li>
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                        </ul>
+                    </div>
+                    <div class="address-box-right">
+                        <img class="cc-top" src="images/hinh/logo-icon/bocongthuong.png"><br>
+                        <img class="cc-bootom" src="images/hinh/logo-icon/chungchi.png">
+                    </div>
+                </div>
+            </div>
+            <div class="container-2">
+                <p>Copyright © Yamaha Việt Nam</p>
+            </div>
+        </footer>
+    </body>
+</html>

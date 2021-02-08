@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Yamaha Việt Nam
+        </title>
+        <link rel="shortout image" class="image-logo" href="images/hinh/logo-image/image-logo1.jpg" >
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head> 
+    <body>
+        <header>
+            <div class="main-header">
+                <div class="top-menu">
+                    <div class="top-left">
+                        <ul>
+                            
+                            <li>
+                                <span><a href="HTML.html#"><i class="fa fa-home" aria-hidden="true"></i></a></span>
+                                <a href="HTML.html#">TRANG CHỦ</a>
+                            </li>
+                            <li>
+                                <a href="page-sp.html">LOẠI XE</a>
+                                <ul class="sub-menu1">
+                                    <li><a href="xetayga.html">XE TAY GA</a></li>
+                                    <li><a href="xetaycon.html">XE CÔN TAY</a></li>
+                                    <li><a href="xeso.html">XE SỐ</a></li>
+                                    <li><a href="page-ctsp.html">CHI TIẾT SẢN PHẨM</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="page-pt.html">PHỤ TÙNG<a>
+                                <ul class="sub-menu2">
+                                    <li><a href="#">PHỤ TÙNG CHÍNH HÃNG</a></li>
+                                    <li><a href="#">HÓA CHẤT</a></li>
+                                    <li><a href="#">MŨ BẢO HIỂM & BAO TAY</a></li>
+                                </ul>
+                            </li>
+                                
+                            <li>
+                                <a href="login/page-login.html">TÀI KHOẢN</a>
+                                <ul class="sub-menu2">
+                                    <li><a href="page-dangky.html">ĐĂNG KÝ</a></li>
+                                    <li><a href="login/page-login.html">ĐĂNG NHẬP</a></li>
+                                    <li><a href="page-taikhoan.html">THÔNG TIN TÀI KHOẢN</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="page-blog.html">BLOG</a></li>
+                            <li><a href="page-giohang.html">GIỎ HÀNG</a></li>
+                            <li><a href="page-tintuc.html">TIN TỨC</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-right">
+                        <div class="box-search">
+                            <div class="container-1">
+                                <span class="image">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </span>
+                                <input type="search" id="search" placeholder=" Tìm kiếm...." />
+                            </div>
+                        </div>
+                        
+                        <span><a href="https://www.facebook.com/manhnguyencm"><img class="fb" src="images/hinh/logo-icon/ico-fb.png.webp" alt=""></a></span>
+                        <span><a href="https://yamaha-motor.com.vn/"><img class="itg" src="images/hinh/logo-icon/ico-instagram.png" alt=""></a></span>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="logo-yamaha">
+                        <div class="anh-logo">
+                            <img src="images/hinh/logo-icon/logo-yamaha.png" alt="">
+                        </div>
+                        <div class="quang-cao">
+                            <p>Yamaha Việt Nam luôn đồng hành cùng bạn trên mọi nẻo đường <br>Tự hào là thương hiệu hàng đầu tại Việt Nam<br>Từ 1/1/2020 Yamaha Việt Nam hỗ trợ thay dầy miễn phí tại tất cả các showroom</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-top-head">
+                    <div class="top-top-left">
+                        <ul>
+                            <li id="menu-item-left">
+                                <a href="#">Liên hệ chúng tôi</a>
+                            </li>
+                            <li id="menu-item-right">
+                                <a href="#">+84 376167632</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-top-right">
+                         <ul>
+                            <li id="menu-right">
+                                
+                                <a href="page-login.html">
+                                    <spam><a href="https://www.facebook.com/manhnguyencm"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></spam>
+                                    Tài khoản
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+        </header>
+        
+        <section class="main-content">
+            <div class="container">
+                <div id="video-yamaha">
+                    <video autoplay  controls>
+                        <source src="images/videos/YAMAHA New YZF-R15 Tech Video.mp4" type="video/mp4">
+                        <source src="images/videos/YAMAHA New YZF-R15 Tech Video.ogg" type="video/ogg">
+                    </video>
+                </div>
+                <div id="video-yamaha2">
+                    <div class="slideShow-videoRight" style="max-width:500px">
+                        <img class="slidesRright" src="images/hinh/banner/Annotation 2020-03-28 223051.png" style="width:100%">
+                        <img class="slidesRright" src="images/hinh/banner/Tablet-Banner-768x581px-768x390.jpg" style="width:100%">
+                        <img class="slidesRright" src="images/hinh/banner/Untitled-23.jpg.webp" style="width:100%">
+                    </div>
+                    <script>
+                        var myIndex = 0;
+                        carousel();
+                        
+                        function carousel() {
+                          var i;
+                          var x = document.getElementsByClassName("slidesRright");
+                          for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
+                          }
+                          myIndex++;
+                          if (myIndex > x.length) {myIndex = 1}    
+                          x[myIndex-1].style.display = "block";  
+                          setTimeout(carousel, 2000); // Change image every 2 seconds
+                        }
+                        </script>
+                </div>
+                
+            </div>
+            <div class="content-mainsp">
+                <h5>YAMAHA</h5>
+                <ul>
+                    <li>
+                        <div class="post">
+                            <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                            <h4><a href="#">WAVE-FI</a></h4>
+                            <p>Giá: 17.300.000 VND</p>
+                            <p>
+                                <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                            </p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        <div class="post">
+                            <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                            <h4><a href="#">WAVE-FI</a></h4>
+                            <p>Giá: 17.300.000 VND</p>
+                            <p>
+                                <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                            </p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        <div class="post">
+                            <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                            <h4><a href="#">WAVE-FI</a></h4>
+                            <p>Giá: 17.300.000 VND</p>
+                            <p>
+                                <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                            </p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        <div class="post">
+                            <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                            <h4><a href="#">WAVE-FI</a></h4>
+                            <p>Giá: 17.300.000 VND</p>
+                            <p>
+                                <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div id="mainsp-left">
+                    <div class="xeso">
+                        <ul>
+                            <h5>xe số</h5>
+                            <li>
+                                <div class="post">
+                                    <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                    <h4><a href="#">WAVE-FI</a></h4>
+                                    <p>Giá: 17.300.000 VND</p>
+                                    <p>
+                                        <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post">
+                                    <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                    <h4><a href="#">WAVE-FI</a></h4>
+                                    <p>Giá: 17.300.000 VND</p>
+                                    <p>
+                                        <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post">
+                                    <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                    <h4><a href="#">WAVE-FI</a></h4>
+                                    <p>Giá: 17.300.000 VND</p>
+                                    <p>
+                                        <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                    </div>    
+                        
+                    <div class="xega">
+                        <ul>
+                            <h5>xe ga</h5>
+                            <li>
+                                <div class="post">
+                                    <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                    <h4><a href="#">WAVE-FI</a></h4>
+                                    <p>Giá: 17.300.000 VND</p>
+                                    <p>
+                                        <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post">
+                                    <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                    <h4><a href="#">WAVE-FI</a></h4>
+                                    <p>Giá: 17.300.000 VND</p>
+                                    <p>
+                                        <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post">
+                                    <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                    <h4><a href="#">WAVE-FI</a></h4>
+                                    <p>Giá: 17.300.000 VND</p>
+                                    <p>
+                                        <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="xethethao">
+                        <ul>
+                            <h5>xe thể thao</h5>
+                            <li>
+                                <div class="post">
+                                    <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                    <h4><a href="#">WAVE-FI</a></h4>
+                                    <p>Giá: 17.300.000 VND</p>
+                                    <p>
+                                        <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post">
+                                    <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                    <h4><a href="#">WAVE-FI</a></h4>
+                                    <p>Giá: 17.300.000 VND</p>
+                                    <p>
+                                        <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post">
+                                    <a href="#"><img src="images/hinh/anhsp/xeso/902cbf7c3925180d16ad89df59f9d225.png" alin></a>
+                                    <h4><a href="#">WAVE-FI</a></h4>
+                                    <p>Giá: 17.300.000 VND</p>
+                                    <p>
+                                        <button type="button" onclick="alert('Mua thành công!')">MUA HÀNG</button>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="mainsp-right">
+                    <div id="content">
+                        <h5><p class="tin-tuc">TIN TỨC</p></h4>
+                        <ul>
+                            <li>
+                                <h5><p>BÀI VIẾT MỚI</p></h4>
+                                    <p>🌸“TẾT TRIỆU VẬN MAY RINH NGAY QUÀ KHỦNG” CÙNG YAMAHA🌸
+        
+                                        Một năm với thật nhiều thành tựu sắp qua, hãy để Yamaha cùng bạn kết năm thật hoành tráng với chương trình “TẾT TRIỆU VẬN MAY RINH NGAY QUÀ KHỦNG”!
+                                        
+                                        Từ ngày 01/12 đến hết 31/1/2020, khi mua xe máy Yamaha bất kì, bạn sẽ có cơ hội nhận ngay:
+                                        
+                                        100% trúng ngay phần thưởng quà tặng tiền mặt khi mua xe Yamaha Sirius (700.000VND), Exciter/Janus (1.500.000VND) và Grande (2.000.000VND)!
+                                        
+                                        Nhân đôi may mắn với chương trình bốc thăm trúng thưởng tới 5000 điện thoại Samsung A30S hiện đại!
+                                        
+                                        Đặc biệt, 10 chuyến du lịch Nhật Bản dành cho 2 người đang chờ đợi những khách hàng may mắn nhất!
+                                        
+                                        ———————————
+                                        YAMAHA TOWN NHẬT TÂN
+                                        ☎ Hotline: 0947 590 555 or 0968 590 555
+                                        🏢Đ/c: Tổ 9 – TT Việt quang – Bắc quang – Hà Giang ( đỉnh dốc thủy vôi )
+                                        ⏲ Giờ làm việc: 7h00 – 18h00 (Tất cả các ngày trong tuần)
+                                    </p> 
+                            </li>
+                            <li>
+                                <h5><p>QUÀ LỚN YAMAHA</p></h4>
+                                    <p>🌸“TẾT TRIỆU VẬN MAY RINH NGAY QUÀ KHỦNG” CÙNG YAMAHA🌸
+        
+                                        Một năm với thật nhiều thành tựu sắp qua, hãy để Yamaha cùng bạn kết năm thật hoành tráng với chương trình “TẾT TRIỆU VẬN MAY RINH NGAY QUÀ KHỦNG”!
+                                        
+                                        Từ ngày 01/12 đến hết 31/1/2020, khi mua xe máy Yamaha bất kì, bạn sẽ có cơ hội nhận ngay:
+                                        ———————————
+                                        YAMAHA TOWN NHẬT TÂN
+                                        ☎ Hotline: 0947 590 555 or 0968 590 555
+                                        🏢Đ/c: Tổ 9 – TT Việt quang – Bắc quang – Hà Giang ( đỉnh dốc thủy vôi )
+                                        ⏲ Giờ làm việc: 7h00 – 18h00 (Tất cả các ngày trong tuần)
+                                    </p> 
+                            </li>
+                        </ul>   
+                    </div>
+                </div>
+            </div>
+            
+            
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-box">
+                    <div class="address-box">
+                        <a href="#"><img class="logo-footer" src="images/hinh/logo-icon/logo-yamaha.png" alt="yamaha việt nam"></a>
+                        <div class="address-list">
+                            <div class="tit-name">Địa chỉ:</div>
+                            <div class="tit-contain"> Hoàng Quốc Việt, Bắc Từ Liêm, Hà Nội</div>
+                            <div class="tit-name">Hotline:</div>
+                            <div class="tit-contain"> +84 376167632</div>
+                            <div class="tit-name">Email:</div>
+                            <div class="tit-contain"> manhnv1789@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="menu-box">
+                        <ul>
+                            <p>THƯƠNG HIỆU</p>
+                            <li><a href="#">Yamaha</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-box">
+                        <ul>
+                            <p>HỖ TRỢ</p>
+                            <li><a href="#">Bảo hành yamaha</a></li>
+                            <li><a href="#">Kiểm tra & Thanh toán<a></li>
+                            <li><a href="#">Liên hệ Online</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-box">
+                        <ul>
+                            <p>CHÍNH SÁCH</p>
+                            <li><a href="#">Quy định chung<a></li>
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                        </ul>
+                    </div>
+                    <div class="address-box-right">
+                        <img class="cc-top" src="images/hinh/logo-icon/bocongthuong.png"><br>
+                        <img class="cc-bootom" src="images/hinh/logo-icon/chungchi.png">
+                    </div>
+                </div>
+            </div>
+            <div class="container-2">
+                <p>Copyright © Yamaha Việt Nam</p>
+            </div>
+        </footer>
+    </body>
+</html>

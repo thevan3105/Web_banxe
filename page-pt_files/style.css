@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+/* top header -------------------------------------------------------------------*/
+.top-top-head {
+    background: burlywood;
+    height: 34px;
+}
+.top-top-left #menu-item-left {
+    width: 132px;
+    float: left;
+    font-size: 16px;
+    padding: 4px 0;
+    
+}
+.top-top-left #menu-item-right {
+        font-size: 15px;
+        display: inline-block;
+        float: right;
+        padding: 4px;
+        margin-top: 2px;
+}
+.top-top-left {
+    height: 33px;
+    float: left;
+    width: 252px;
+}
+.top-top-right {
+    float: right;
+    font-size: 18px;
+    width: 8%;
+}
+i.fa.fa-user-circle-o {
+    margin-top: 7px;
+    padding: 2px;
+}
+.top-top-head .top-top-right #menu-right{
+    font-size: 15px;
+    display: inline-block;
+    padding: 4px;
+    float: right;
+    margin-top: 2px;
+}
+.logo-yamaha .container img{
+    max-width: 100%;
+    width: 165px;
+    height: 60px;
+    margin-left: 106px;
+    margin-bottom: 1px;
+    margin-top: -13px;
+}
+
+ul,li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+/* main header -------------------------------------------------------------------*/
+header {
+    margin-top: 0px;
+    font-size: 55px;
+    background: white;
+}
+.quang-cao{
+    text-align: left;
+    margin-left: 77px;
+    font-size: 14px;
+    text-shadow: 1px 1px red;
+    display: inline-block;
+    width: 976px;
+    max-width: 976px;
+    height: 49px;
+}
+/* top header bootom -------------------------------------------------------------------*/
+span.icon {
+    color: white;
+    font-size: 19px;
+}
+i.fa.fa-search{
+    color: white;
+}
+
+i.fa.fa-search:hover{
+    color: blue;
+}
+[type=search] {
+    outline-offset: -1px;
+    -webkit-appearance: none;
+    margin: 2px 43px 25px 7px;
+    font-size: 13px;
+}
+.container {
+    max-width: 1256px;
+}
+.top-head{
+    background: #333;
+    height: 41px;
+}
+
+.top-left {
+    float: left;
+    width: 66%;
+    font-size: 22px;
+}
+.top-left ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+.ul .menu>li {
+    position: relative;
+    display: inline-block;
+}
+ul.sub-menu1 {
+    position: absolute;
+    width: 96px;
+    display: none;
+    color: wheat;
+    background: dimgray;
+}
+ul.sub-menu2 {
+    position: absolute;
+    width: 184px;
+    display: none;
+    color: wheat;
+    background: dimgray;
+}
+.top-left ul li:hover ul {
+    display: block;
+}
+.top-left ul li a:hover {
+    background: rgb(237, 237, 241);
+    color: #111111;
+    text-decoration: none;
+}
+.top-left ul li a {
+    color: rgb(250, 245, 245);
+    font-size: 13px;
+    line-height: 35px;
+    transition: all .3s;
+}
+.box {
+    display: inline-block;
+    margin-left: 21px;
+   
+}
+
+.top-right {
+    float: right;
+}
+.top-right {
+    font-size: 24px;
+}
+.top-right span {
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 35px;
+}
+.top-right span a {
+    color: black;
+}
+.top-right span a:hover {
+    color:#FF5454;
+}
+/* main body (post-sp) -------------------------------------------------------------------*/
+img.banner-body {
+    width: 100%;
+    height: 500px;
+    margin-top: -18px;
+}
+.main-content .container .post {
+    width: 290px;
+    height: 300px;
+    margin: 5px 0px 5px -8px;
+    border-style: solid;
+    float: left;
+    margin-right: 23px;
+    text-align: center;
+}
+i.fa.fa-shopping-cart {
+    margin-left: -2px;
+    font-size: 24px;
+    color: black;
+}
+i.fa.fa-shopping-cart:hover{
+    color: rgb(60, 124, 241);
+}
+.box-mua {
+    border-style: double;
+    width: 123px;
+    height: 36px;
+    margin-left: 82px;
+}
+.main-content .container{
+        max-width: 1256px;
+        border-style: solid;
+        margin-top: 7px;
+        height: 316px;
+}
+.main-content .container .post img {
+    vertical-align: middle;
+    border-style: none;
+    width: 221px;
+    border: solid #edf8fc;
+}
+.main-content .container .post img:hover{
+    background-color: rgb(207, 247, 247);
+}
+/* footer -------------------------------------------------------------------*/
+/* box left---------------------------*/
+footer.footer {
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+footer .container{
+    max-width: 1256px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+footer .container .footer-box .address-box .address-list .tit-name {
+    float: left;
+}
+footer .container .footer-box .address-box .address-list {
+    width: 271px;
+}
+img.logo-footer {
+    vertical-align: middle;
+    border-style: none;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    width: 151px;
+}
+.address-box {
+    float: left;
+}
+/* box middle---------------------------*/
+.menu-box {
+    float: left;
+    margin-left: 132px;
+}
+/* box right---------------------------*/
