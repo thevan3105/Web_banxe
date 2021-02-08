@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+  nav1 {
+    background-color: #f1f1f1;
+    float: left;
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+  }
+  
+  nav1 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article1 {
+    float: right;
+    padding: 20px;
+    width: 70%;
+    background-color: #d5cedd;
+    height: auto;
+  }
+
+#content-center {
+  background-color: #ddcbcb;
+  width: 100%;
+  height: auto;
+}
+
+#myDIVexciter {
+  width: 98%;
+  text-align: center;
+  background-color: rgb(170, 185, 190);
+  display: none;
+}
+#myDIVjupiter {
+  width: 98%;
+  text-align: center;
+  background-color: rgb(170, 185, 190);
+  display: none;
+}
+#myDIVsirius1 {
+  width: 98%;
+  text-align: center;
+  background-color: rgb(170, 185, 190);
+  display: none;
+}
+#myDIVsiriusRC {
+  width: 98%;
+  text-align: center;
+  background-color: rgb(170, 185, 190);
+  display: none;
+}
+#myDIVyzfr3 {
+  width: 98%;
+  text-align: center;
+  background-color: rgb(170, 185, 190);
+  display: none;
+}
+#myDIVmt3 {
+  width: 98%;
+  text-align: center;
+  background-color: rgb(170, 185, 190);
+  display: none;
+}
+#myDIVyzfr15 {
+  width: 98%;
+  text-align: center;
+  background-color: rgb(170, 185, 190);
+  display: none;
+}
+#myDIVmt15 {
+  width: 98%;
+  text-align: center;
+  background-color: rgb(170, 185, 190);
+  display: none;
+}
+#myDIVtfx {
+  width: 98%;
+  text-align: center;
+  background-color: rgb(170, 185, 190);
+  display: none;
+}
